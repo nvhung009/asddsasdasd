@@ -1,5 +1,3 @@
-import re
-
 def replaceStringReverse(string,num):
     if num == 0: return string
     stringInReverse = string[:-num] + "B"*num
@@ -36,5 +34,4 @@ def stringAB(n,k):
         if "A"*(k+1) not in i and i.count("A"*k) == 1:
             dapAnDung.append(i)
     return sorted(dapAnDung)
-    asd
 print(stringAB(7,4))
